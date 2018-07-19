@@ -1,6 +1,5 @@
 # Interview - Prompt 2
 
-<<<<<<< HEAD
 ## 1. Getting started
 
 This solution requires the Vagrant binary (https://www.vagrantup.com), and utilizes Virtualbox as the underlying hypervisor (https://www.virtualbox.org).
