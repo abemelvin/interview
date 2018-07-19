@@ -48,4 +48,12 @@ Or, we can simply browse to `https://localhost:1443` using our local machine's b
 
 ![Push-Results](https://github.com/abemelvin/interview/blob/master/doc/img/results.png?raw=true)
 
+Finally, let's verify that we can SSH with the GitLab server:
 
+```
+ssh git@interview.dds.com -T
+```
+
+When prompted for a passphrase, you can use `empiredidnothingwrong`. Git SSH sessions are not interactive, so you won't be able to run any commands, but the connection itself should be successful:
+
+~[SSH-Results](https://github.com/abemelvin/interview/blob/master/doc/img/ssh.png?raw=true)
