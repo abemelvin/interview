@@ -56,4 +56,6 @@ ssh git@interview.dds.com -T
 
 When prompted for a passphrase, you can use `empiredidnothingwrong`. Git SSH sessions are not interactive, so you won't be able to run any commands, but the connection itself should be successful:
 
-~[SSH-Results](https://github.com/abemelvin/interview/blob/master/doc/img/ssh.png?raw=true)
+![SSH-Results](https://github.com/abemelvin/interview/blob/master/doc/img/ssh.png?raw=true)
+
+Also note that the user is `admin1` rather than `admin` as specified in the prompt; this is because GitLab does not allow any user to be named `admin` since it would clash with the `/admin` dashboard route.
